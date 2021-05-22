@@ -73,7 +73,7 @@ cfg_io_util! {
     mod take;
     pub use take::Take;
 
-    mod write;
+    pub mod write;
     mod write_vectored;
     mod write_all;
     mod write_buf;
